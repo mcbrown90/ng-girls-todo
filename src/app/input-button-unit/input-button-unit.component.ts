@@ -10,7 +10,7 @@ import { EventEmitter } from '@angular/core';
            (keyup.enter)="submitValue($event.target.value)">
 
     <button class="btn"
-            (click)="submitValue(inputElementRef)">
+            (click)="submitValue(inputElementRef.value)">
       Save
     </button>
   `,
